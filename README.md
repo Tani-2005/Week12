@@ -28,12 +28,39 @@ The system includes:
 Week-12/
 │
 ├── data/
+│   ├── customer_churn.csv
+│   ├── sales_data.csv
+│   └── house_prices.csv
 ├── models/
+│  ├── churn_model.pkl
+│  ├── churn_columns.pkl
+│  ├── sales_model.pkl
+│  ├── sales_columns.pkl
+│  ├── house_model.pkl
+│  └── house_columns.pkl
 ├── notebooks/
+│   ├── churn_analysis.csv
+│   ├── sales_analysis.csv
+│   └── house_price_analysis.csv
 ├── src/
+|   ├── __pycache__/
+│   ├── __init__.py
+│   ├── config.py
+|   ├── data_loader.py
+|   ├── evaluate.py
+|   ├── feature_engineering.py
+|   ├── model_factory.py
+|   ├── preprocessing.py
+|   ├── train_all_models.py
+|   ├── train_pipeline.py
+│   └── utils.csv
 ├── deployment/
+│   └── app.py
 ├── reports/
+│   ├── business_report.md
+│   └── technical_report.md
 ├── presentation/
+│   └── business_analytics_ml_suite_presentaion.pptx
 ├── requirements.txt
 └── README.md
 ```
