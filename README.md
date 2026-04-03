@@ -96,13 +96,21 @@ cleaning
 ↓
 
 encoding
+
 ↓
+
 feature alignment
+
 ↓
+
 training
+
 ↓
+
 evaluation
+
 ↓
+
 deployment-ready models
 
 ---
