@@ -34,7 +34,6 @@ Week-12/
 ├── deployment/
 ├── reports/
 ├── presentation/
-├── train_all_models.py
 ├── requirements.txt
 └── README.md
 ```
@@ -89,9 +88,13 @@ Includes:
 
 ## Machine Learning Workflow
 data
+
 ↓
+
 cleaning
+
 ↓
+
 encoding
 ↓
 feature alignment
